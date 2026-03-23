@@ -10,13 +10,36 @@
 
 [![License](https://img.shields.io/badge/License-Custom-red.svg)](LICENSE)
 [![Styles](https://img.shields.io/badge/Styles-190+-blue.svg)](styles/INDEX.md)
-[![Made by](https://img.shields.io/badge/Made%20by-Rahaman%20Bin%20Ujit-black.svg)](https://linkedin.com/in/rahamanujit)
+[![Made by](https://img.shields.io/badge/Made%20by-Rahaman%20Bin%20Ujit-black.svg)](https://www.linkedin.com/in/rahamanbinujit/)
 
 ---
 
 *Built through 300+ real design experiments. Every style tested, scored, and validated.*
 
 </div>
+
+---
+
+## Example Output
+
+These were generated entirely by the design engine — one prompt each, zero manual editing:
+
+<div align="center">
+<table>
+<tr>
+<td><img src="examples/showcase/example-1-poster.png" width="320" alt="Type Hero Style - Design anything from your terminal"></td>
+<td><img src="examples/showcase/example-2-stats.png" width="320" alt="Minimaximalist Style - 190+ battle-tested styles"></td>
+<td><img src="examples/showcase/example-3-brutalist.png" width="320" alt="Neo-Brutalist Style - One message in, professional design out"></td>
+</tr>
+<tr>
+<td align="center"><em>Type Hero Style</em></td>
+<td align="center"><em>Minimaximalist Style</em></td>
+<td align="center"><em>Neo-Brutalist Style</em></td>
+</tr>
+</table>
+</div>
+
+> 3 of 190+ styles. Each produces a different aesthetic from the same system.
 
 ---
 
@@ -352,9 +375,13 @@ The system improves itself: every design session generates learnings that feed b
 
 ## Created By
 
-**[Rahaman Bin Ujit](https://linkedin.com/in/rahamanujit)** — Senior Marketing Executive, designer, and builder.
+**[Rahaman Bin Ujit](https://www.linkedin.com/in/rahamanbinujit/)** — Senior Marketing Executive, designer, and builder.
 
 I build AI systems that 10x creative output. This design engine is one of them.
+
+- **LinkedIn:** [linkedin.com/in/rahamanbinujit](https://www.linkedin.com/in/rahamanbinujit/)
+- **YouTube:** [youtube.com/@RahamanBinUjit](https://www.youtube.com/@RahamanBinUjit)
+- **Twitter/X:** [x.com/rahamanbinujit](https://x.com/rahamanbinujit)
 
 ---
 
@@ -372,9 +399,11 @@ See [LICENSE](LICENSE) for full terms.
 ## Support & Community
 
 - **Star this repo** if it helped you design something
-- **Issues:** [GitHub Issues](https://github.com/rahamanujit/claude-design-engine/issues)
+- **Issues:** [GitHub Issues](https://github.com/rahamanbinujit/claude-design-engine/issues)
 - **Contribute:** [CONTRIBUTING.md](CONTRIBUTING.md)
-- **Connect:** [LinkedIn](https://linkedin.com/in/rahamanujit)
+- **LinkedIn:** [Rahaman Bin Ujit](https://www.linkedin.com/in/rahamanbinujit/)
+- **YouTube:** [@RahamanBinUjit](https://www.youtube.com/@RahamanBinUjit)
+- **Twitter/X:** [@rahamanbinujit](https://x.com/rahamanbinujit)
 
 ---
 

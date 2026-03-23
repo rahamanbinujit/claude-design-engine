@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1080px; height: 1080px; overflow: hidden; background: #0A0A0A; font-family: 'Space Grotesk', sans-serif; position: relative; }
+.grid-line-h, .grid-line-v { position: absolute; background: rgba(255,255,255,0.04); }
+.grid-line-h { width: 100%; height: 1px; }
+.grid-line-v { width: 1px; height: 100%; }
+.container { width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: space-between; padding: 48px; position: relative; z-index: 2; }
+.corner { position: absolute; font-family: 'Space Mono', monospace; font-size: 10px; color: rgba(255,255,255,0.12); }
+.corner.tl { top: 20px; left: 20px; }
+.corner.tr { top: 20px; right: 20px; }
+.corner.bl { bottom: 20px; left: 20px; }
+.corner.br { bottom: 20px; right: 20px; }
+.top { display: flex; justify-content: space-between; align-items: center; }
+.label { font-family: 'Space Mono', monospace; font-size: 15px; color: #C83C32; text-transform: uppercase; letter-spacing: 3px; text-decoration: underline; text-underline-offset: 6px; }
+.middle { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 24px; }
+.card { background: #F5F5F5; border: 4px solid #FFFFFF; box-shadow: 10px 10px 0 #C83C32; border-radius: 0; padding: 40px; }
+.card-label { font-family: 'Space Mono', monospace; font-size: 13px; color: #C83C32; text-transform: uppercase; letter-spacing: 3px; margin-bottom: 16px; }
+.card-headline { font-size: 52px; font-weight: 700; letter-spacing: -2px; line-height: 1.08; color: #0A0A0A; }
+.card-headline .red { color: #C83C32; }
+.stat-row { display: flex; gap: 16px; margin-top: 8px; }
+.stat-box { border: 3px solid #FFFFFF; padding: 20px 24px; flex: 1; }
+.stat-num { font-family: 'Space Mono', monospace; font-size: 40px; font-weight: 700; color: #FFFFFF; }
+.stat-num .red { color: #C83C32; }
+.stat-lbl { font-family: 'Space Mono', monospace; font-size: 11px; color: rgba(255,255,255,0.4); text-transform: uppercase; letter-spacing: 2px; margin-top: 4px; }
+.body-mono { font-family: 'Space Mono', monospace; font-size: 18px; color: rgba(255,255,255,0.6); line-height: 1.6; margin-top: 8px; }
+.bottom { display: flex; justify-content: space-between; align-items: flex-end; border-top: 3px solid rgba(255,255,255,0.08); padding-top: 20px; }
+.author { font-size: 20px; font-weight: 600; color: #FFFFFF; }
+.author-role { font-family: 'Space Mono', monospace; font-size: 12px; color: rgba(255,255,255,0.35); text-transform: uppercase; letter-spacing: 0.1em; }
+.tag-pill { font-family: 'Space Mono', monospace; font-size: 12px; color: #C83C32; border: 2px solid #C83C32; padding: 6px 16px; text-transform: uppercase; letter-spacing: 2px; }
+</style>
+</head>
+<body>
+<div class="grid-line-h" style="top:25%"></div>
+<div class="grid-line-h" style="top:50%"></div>
+<div class="grid-line-h" style="top:75%"></div>
+<div class="grid-line-v" style="left:25%"></div>
+<div class="grid-line-v" style="left:50%"></div>
+<div class="grid-line-v" style="left:75%"></div>
+<div class="corner tl">001</div>
+<div class="corner tr">1080x1080</div>
+<div class="corner bl">CDE</div>
+<div class="corner br">2026</div>
+<div class="container">
+  <div class="top">
+    <div class="label">// System Output</div>
+  </div>
+  <div class="middle">
+    <div class="card">
+      <div class="card-label">// Capability</div>
+      <div class="card-headline">One message in.<br><span class="red">Professional design</span> out.</div>
+    </div>
+    <div class="stat-row">
+      <div class="stat-box"><div class="stat-num"><span class="red">190</span>+</div><div class="stat-lbl">Styles</div></div>
+      <div class="stat-box"><div class="stat-num">4x</div><div class="stat-lbl">Resolution</div></div>
+      <div class="stat-box"><div class="stat-num">7</div><div class="stat-lbl">Skills</div></div>
+    </div>
+    <div class="body-mono">AI-powered design from your terminal.</div>
+  </div>
+  <div class="bottom">
+    <div>
+      <div class="author">Claude Design Engine</div>
+      <div class="author-role">Rahaman Bin Ujit</div>
+    </div>
+    <div class="tag-pill">// Open Source</div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1080px; height: 1080px; overflow: hidden; background: #0A0A0A; font-family: 'Space Grotesk', sans-serif; }
+.container { width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: space-between; padding: 52px; }
+.top { display: flex; justify-content: space-between; align-items: center; }
+.tag { font-family: 'Space Mono', monospace; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.18em; color: rgba(255,255,255,0.35); }
+.middle { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 28px; }
+.headline { font-size: 68px; font-weight: 700; letter-spacing: -3px; line-height: 1.05; color: #FFFFFF; }
+.headline .light { font-weight: 300; color: rgba(255,255,255,0.7); }
+.headline .accent { color: #C83C32; text-shadow: 0 0 30px rgba(200,60,50,0.4), 0 0 80px rgba(200,60,50,0.2); }
+.line { width: 48px; height: 3px; background: #C83C32; border-radius: 2px; }
+.body { font-size: 16px; font-weight: 300; line-height: 1.7; color: rgba(255,255,255,0.5); max-width: 75%; }
+.bottom { display: flex; justify-content: space-between; align-items: flex-end; }
+.identity { display: flex; align-items: center; gap: 12px; }
+.id-line { width: 2px; height: 32px; background: rgba(200,60,50,0.5); border-radius: 1px; }
+.name { font-size: 14px; font-weight: 600; color: #FFFFFF; }
+.role { font-family: 'Space Mono', monospace; font-size: 10px; color: rgba(255,255,255,0.35); text-transform: uppercase; letter-spacing: 0.12em; }
+.dot { width: 28px; height: 28px; border-radius: 50%; background: radial-gradient(circle at 40% 40%, #FF5A4A, #C83C32); box-shadow: 0 0 18px rgba(200,60,50,0.6), 0 0 40px rgba(200,60,50,0.3); }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="top">
+    <div class="tag">AI + Design</div>
+    <div class="tag">2026</div>
+  </div>
+  <div class="middle">
+    <h1 class="headline"><span class="light">Design anything.</span><br>From your <span class="accent">terminal.</span></h1>
+    <div class="line"></div>
+    <p class="body">190+ styles. AI image generation. Pixel-perfect export. One message in, professional design out.</p>
+  </div>
+  <div class="bottom">
+    <div class="identity">
+      <div class="id-line"></div>
+      <div>
+        <div class="name">Claude Design Engine</div>
+        <div class="role">By Rahaman Bin Ujit</div>
+      </div>
+    </div>
+    <div class="dot"></div>
+  </div>
+</div>
+</body>
+</html>

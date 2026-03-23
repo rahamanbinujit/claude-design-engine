@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1080px; height: 1080px; overflow: hidden; background: #0A0A0A; font-family: 'Space Grotesk', sans-serif; }
+.container { width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: space-between; padding: 52px; }
+.top { display: flex; justify-content: space-between; align-items: center; }
+.tag { font-family: 'Space Mono', monospace; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.18em; color: #C83C32; }
+.middle { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 12px; }
+.giant { font-size: 360px; font-weight: 700; letter-spacing: -16px; line-height: 0.85; color: #C83C32; text-shadow: 0 0 60px rgba(200,60,50,0.5), 0 0 120px rgba(200,60,50,0.25); }
+.giant .unit { font-size: 120px; color: rgba(255,255,255,0.7); letter-spacing: -4px; text-shadow: none; }
+.line { width: 48px; height: 3px; background: #C83C32; border-radius: 2px; margin-top: 16px; }
+.context { font-size: 26px; font-weight: 300; color: rgba(255,255,255,0.6); line-height: 1.4; margin-top: 8px; }
+.context strong { font-weight: 700; color: #FFFFFF; }
+.stats-row { display: flex; gap: 48px; margin-top: 32px; }
+.stat-val { font-family: 'Space Mono', monospace; font-size: 18px; font-weight: 700; color: #FFFFFF; }
+.stat-label { font-family: 'Space Mono', monospace; font-size: 10px; color: rgba(255,255,255,0.3); text-transform: uppercase; letter-spacing: 0.12em; margin-top: 2px; }
+.bottom { display: flex; justify-content: space-between; align-items: flex-end; }
+.identity { display: flex; align-items: center; gap: 12px; }
+.id-line { width: 2px; height: 32px; background: rgba(200,60,50,0.5); border-radius: 1px; }
+.name { font-size: 14px; font-weight: 600; color: #FFFFFF; }
+.role { font-family: 'Space Mono', monospace; font-size: 10px; color: rgba(255,255,255,0.35); text-transform: uppercase; letter-spacing: 0.12em; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="top">
+    <div class="tag">// Design System</div>
+    <div class="tag" style="color: rgba(255,255,255,0.25);">v1.0</div>
+  </div>
+  <div class="middle">
+    <div class="giant">190<span class="unit">+</span></div>
+    <div class="line"></div>
+    <div class="context"><strong>Battle-tested styles.</strong> Each with complete CSS,<br>typography specs, and layout diagrams.</div>
+    <div class="stats-row">
+      <div><div class="stat-val">300+</div><div class="stat-label">Experiments</div></div>
+      <div><div class="stat-val">7</div><div class="stat-label">Skills</div></div>
+      <div><div class="stat-val">4x</div><div class="stat-label">Resolution</div></div>
+      <div><div class="stat-val">8</div><div class="stat-label">Workflows</div></div>
+    </div>
+  </div>
+  <div class="bottom">
+    <div class="identity">
+      <div class="id-line"></div>
+      <div>
+        <div class="name">Claude Design Engine</div>
+        <div class="role">By Rahaman Bin Ujit</div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
