@@ -429,9 +429,9 @@ The system improves itself: every design session generates learnings that feed b
 
 ## Created By
 
-**[Rahaman Bin Ujit](https://www.linkedin.com/in/rahamanbinujit/)** — Senior Marketing Executive, designer, and builder.
+**[Rahaman Bin Ujit](https://www.linkedin.com/in/rahamanbinujit/)** — Senior Marketing Executive. I build AI systems that 10x your marketing team's output.
 
-I build AI systems that 10x creative output. This design engine is one of them.
+This design engine is one of them. Built through 300+ real experiments, not theory.
 
 - **LinkedIn:** [linkedin.com/in/rahamanbinujit](https://www.linkedin.com/in/rahamanbinujit/)
 - **YouTube:** [youtube.com/@RahamanBinUjit](https://www.youtube.com/@RahamanBinUjit)
