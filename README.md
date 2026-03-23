@@ -51,6 +51,30 @@ Every design below was made by this engine. **Different brands. Different niches
 
 <div align="center">
 
+### Photo-Integrated Designs
+
+<table>
+<tr>
+<td><img src="examples/showcase/coffee-brand-photo.png" width="480" alt="Coffee brand poster with real photography"></td>
+<td><img src="examples/showcase/travel-poster-photo.png" width="360" alt="Travel retreat poster with aerial beach photo"></td>
+</tr>
+<tr>
+<td align="center"><em>Coffee Brand — Serif + Real Photography<br>Split layout with gradient overlay</em></td>
+<td align="center"><em>Travel Retreat — Full-bleed Aerial Photo<br>Bold type over drone photography</em></td>
+</tr>
+</table>
+
+### YouTube Thumbnails
+
+<table>
+<tr>
+<td><img src="examples/showcase/youtube-thumbnail.png" width="640" alt="YouTube Thumbnail - Claude Code for Beginners"></td>
+</tr>
+<tr>
+<td align="center"><em>YouTube Thumbnail (1280x720) — Real photo cutout + bold text + app icons</em></td>
+</tr>
+</table>
+
 ### Social Media Posters
 
 <table>
@@ -68,6 +92,23 @@ Every design below was made by this engine. **Different brands. Different niches
 </tr>
 </table>
 
+### Infographics & Data Visualization
+
+<table>
+<tr>
+<td><img src="examples/showcase/india-food-map.png" width="480" alt="India food map infographic with state-by-state dishes"></td>
+<td>
+<img src="examples/showcase/carousel-cover-dark.png" width="240" alt="Dark carousel cover slide">
+<br>
+<img src="examples/showcase/example-1-poster.png" width="240" alt="Type hero poster">
+</td>
+</tr>
+<tr>
+<td align="center"><em>India Food Map — Full Infographic<br>Real map, pins, state-by-state data</em></td>
+<td align="center"><em>Carousel Covers — Dark Editorial<br>Bold type, minimal, scroll-stopping</em></td>
+</tr>
+</table>
+
 ### Presentations & Diagrams
 
 <table>
@@ -81,50 +122,9 @@ Every design below was made by this engine. **Different brands. Different niches
 </tr>
 </table>
 
-### Infographics & Data Visualization
-
-<table>
-<tr>
-<td><img src="examples/showcase/india-food-map.png" width="480" alt="India food map infographic with state-by-state dishes"></td>
-<td>
-<img src="examples/showcase/carousel-cover-dark.png" width="240" alt="Dark carousel cover slide">
-<br>
-<img src="examples/showcase/example-1-poster.png" width="240" alt="Type hero poster">
-</td>
-</tr>
-<tr>
-<td align="center"><em>India Food Map — Full Infographic<br>with real map, pins, and state data</em></td>
-<td align="center"><em>Carousel Covers — Dark Editorial<br>Bold type, minimal, scroll-stopping</em></td>
-</tr>
-</table>
-
-### Photo-Integrated Designs
-
-<table>
-<tr>
-<td><img src="examples/showcase/coffee-brand-photo.png" width="480" alt="Coffee brand poster with real photography"></td>
-<td><img src="examples/showcase/travel-poster-photo.png" width="360" alt="Travel retreat poster with aerial beach photo"></td>
-</tr>
-<tr>
-<td align="center"><em>Coffee Brand — Serif + Real Photography<br>Split layout with gradient overlay</em></td>
-<td align="center"><em>Travel Retreat — Full-bleed Photo<br>Bold type over aerial photography</em></td>
-</tr>
-</table>
-
-### YouTube Thumbnails
-
-<table>
-<tr>
-<td><img src="examples/showcase/youtube-thumbnail.png" width="640" alt="YouTube Thumbnail - Claude Code for Beginners"></td>
-</tr>
-<tr>
-<td align="center"><em>YouTube Thumbnail (1280x720) — Real photo cutout + bold text + app icons</em></td>
-</tr>
-</table>
-
 </div>
 
-> **Posters. Carousels. Infographics. Presentations. Photo-integrated designs. Diagrams. Thumbnails.** Different layouts, different brands, different formats, real photography — all from the same engine.
+> **Photo designs. Thumbnails. Posters. Infographics. Presentations. Carousels.** Real photography, diverse layouts, different brands — all from the same engine.
 
 ---
 
