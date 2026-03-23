@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1080px; height: 1350px; overflow: hidden; font-family: 'Inter', sans-serif; position: relative; }
+.bg-photo {
+  position: absolute; inset: 0;
+  background: url('https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1080&h=1350&fit=crop') center/cover;
+}
+.bg-photo::after {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.15) 40%, rgba(0,0,0,0.85) 75%, rgba(0,0,0,0.95) 100%);
+}
+.container { width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; padding: 52px; position: relative; z-index: 2; }
+.content { display: flex; flex-direction: column; gap: 16px; }
+.tag { font-family: 'Space Mono', monospace; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.2em; color: #4DD0E1; }
+.headline { font-family: 'Bebas Neue', sans-serif; font-size: 96px; line-height: 0.95; color: #FFFFFF; letter-spacing: 2px; }
+.headline .cyan { color: #4DD0E1; }
+.line { width: 48px; height: 3px; background: #4DD0E1; border-radius: 2px; }
+.body { font-size: 15px; font-weight: 300; color: rgba(255,255,255,0.6); line-height: 1.6; max-width: 70%; }
+.stats-row { display: flex; gap: 40px; margin-top: 8px; }
+.stat-val { font-family: 'Bebas Neue', sans-serif; font-size: 36px; color: #FFFFFF; }
+.stat-label { font-family: 'Space Mono', monospace; font-size: 9px; color: rgba(255,255,255,0.35); text-transform: uppercase; letter-spacing: 0.12em; }
+.bottom { display: flex; justify-content: space-between; align-items: flex-end; margin-top: 32px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); }
+.brand { font-size: 14px; font-weight: 600; color: #FFFFFF; }
+.brand-sub { font-family: 'Space Mono', monospace; font-size: 9px; color: rgba(255,255,255,0.35); text-transform: uppercase; letter-spacing: 0.1em; }
+</style>
+</head>
+<body>
+<div class="bg-photo"></div>
+<div class="container">
+  <div class="content">
+    <div class="tag">Bali, Indonesia</div>
+    <h1 class="headline">FIND YOUR<br><span class="cyan">STILLNESS.</span></h1>
+    <div class="line"></div>
+    <p class="body">7-day mindfulness retreats in the heart of Ubud. Yoga. Meditation. Silence. The world moves fast. You don't have to.</p>
+    <div class="stats-row">
+      <div><div class="stat-val">7</div><div class="stat-label">Days</div></div>
+      <div><div class="stat-val">12</div><div class="stat-label">Guests Max</div></div>
+      <div><div class="stat-val">4.9</div><div class="stat-label">Rating</div></div>
+    </div>
+  </div>
+  <div class="bottom">
+    <div>
+      <div class="brand">Soulrest Retreats</div>
+      <div class="brand-sub">Wellness Travel</div>
+    </div>
+    <div class="tag" style="color: rgba(255,255,255,0.3);">2026 Season</div>
+  </div>
+</div>
+</body>
+</html>
