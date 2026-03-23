@@ -1,0 +1,15 @@
+{
+  "name": "claude-design-engine-scripts",
+  "version": "1.0.0",
+  "description": "Export scripts for Claude Design Engine by Rahaman Bin Ujit",
+  "author": "Rahaman Bin Ujit",
+  "license": "SEE LICENSE IN ../LICENSE",
+  "scripts": {
+    "export-png": "node export-png.js",
+    "export-pdf": "node export-pdf.js",
+    "export-carousel": "node export-carousel.js"
+  },
+  "dependencies": {
+    "puppeteer": "^24.0.0"
+  }
+}

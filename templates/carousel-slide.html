@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <!--
+    Claude Design Engine — Carousel Template
+    Created by Rahaman Bin Ujit
+
+    Each .page div becomes a separate slide.
+    Export as PNGs: node scripts/export-carousel.js templates/carousel-slide.html ./slides/ 1080 1080
+    Export as PDF:  node scripts/export-pdf.js templates/carousel-slide.html slides.pdf 1080 1080
+  -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #0A0A0A;
+    }
+
+    .page {
+      width: 1080px;
+      height: 1080px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      padding: 48px;
+      background: #0A0A0A;
+      page-break-after: always;
+    }
+
+    .page:last-child {
+      page-break-after: avoid;
+    }
+
+    /* === SHARED STYLES === */
+    .top-zone {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .middle-zone {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 24px;
+    }
+
+    .bottom-zone {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .tag {
+      font-family: 'Space Mono', monospace;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: rgba(255,255,255,0.4);
+    }
+
+    .slide-num {
+      font-family: 'Space Mono', monospace;
+      font-size: 11px;
+      color: rgba(255,255,255,0.3);
+    }
+
+    .name {
+      font-size: 14px;
+      font-weight: 600;
+      color: #FFFFFF;
+    }
+
+    .accent { color: #C83C32; }
+
+    /* === SLIDE 1: HOOK === */
+    .hook-headline {
+      font-size: 64px;
+      font-weight: 700;
+      letter-spacing: -2px;
+      line-height: 1.05;
+      color: #FFFFFF;
+    }
+
+    .swipe-indicator {
+      font-family: 'Space Mono', monospace;
+      font-size: 11px;
+      color: rgba(255,255,255,0.3);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* === SLIDE 2-N: CONTENT === */
+    .content-number {
+      font-family: 'Space Mono', monospace;
+      font-size: 72px;
+      font-weight: 700;
+      color: rgba(255,255,255,0.08);
+      line-height: 1;
+    }
+
+    .content-title {
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: -1px;
+      line-height: 1.2;
+      color: #FFFFFF;
+    }
+
+    .content-body {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.6;
+      color: rgba(255,255,255,0.6);
+      max-width: 85%;
+    }
+
+    /* === LAST SLIDE: CTA === */
+    .cta-text {
+      font-size: 32px;
+      font-weight: 600;
+      color: rgba(255,255,255,0.7);
+      line-height: 1.5;
+    }
+
+    .cta-action {
+      font-size: 24px;
+      font-weight: 700;
+      color: #C83C32;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- SLIDE 1: HOOK -->
+  <div class="page">
+    <div class="top-zone">
+      <div class="tag">Your Topic</div>
+    </div>
+    <div class="middle-zone">
+      <h1 class="hook-headline">
+        Your bold hook<br>
+        that stops the <span class="accent">scroll.</span>
+      </h1>
+    </div>
+    <div class="bottom-zone">
+      <div class="name">Your Name</div>
+      <div class="swipe-indicator">Swipe &rarr;</div>
+    </div>
+  </div>
+
+  <!-- SLIDE 2: CONTENT -->
+  <div class="page">
+    <div class="top-zone">
+      <div class="tag">Point 01</div>
+      <div class="slide-num">02/05</div>
+    </div>
+    <div class="middle-zone">
+      <div class="content-number">01</div>
+      <h2 class="content-title">First key point</h2>
+      <p class="content-body">
+        Explain this point clearly and concisely. Maximum 30 words per slide. Let the design breathe.
+      </p>
+    </div>
+    <div class="bottom-zone">
+      <div></div>
+      <div class="slide-num">02/05</div>
+    </div>
+  </div>
+
+  <!-- SLIDE 3: CONTENT -->
+  <div class="page">
+    <div class="top-zone">
+      <div class="tag">Point 02</div>
+      <div class="slide-num">03/05</div>
+    </div>
+    <div class="middle-zone">
+      <div class="content-number">02</div>
+      <h2 class="content-title">Second key point</h2>
+      <p class="content-body">
+        Another concise explanation. One idea per slide. Let the visual hierarchy guide the reader.
+      </p>
+    </div>
+    <div class="bottom-zone">
+      <div></div>
+      <div class="slide-num">03/05</div>
+    </div>
+  </div>
+
+  <!-- SLIDE 4: CONTENT -->
+  <div class="page">
+    <div class="top-zone">
+      <div class="tag">Point 03</div>
+      <div class="slide-num">04/05</div>
+    </div>
+    <div class="middle-zone">
+      <div class="content-number">03</div>
+      <h2 class="content-title">Third key point</h2>
+      <p class="content-body">
+        Final point. Make it strong — this is the last piece of value before the CTA.
+      </p>
+    </div>
+    <div class="bottom-zone">
+      <div></div>
+      <div class="slide-num">04/05</div>
+    </div>
+  </div>
+
+  <!-- SLIDE 5: CTA -->
+  <div class="page">
+    <div class="top-zone">
+      <div class="tag">That's it</div>
+      <div class="slide-num">05/05</div>
+    </div>
+    <div class="middle-zone">
+      <p class="cta-text">Found this useful?</p>
+      <p class="cta-action">Follow for more.</p>
+    </div>
+    <div class="bottom-zone">
+      <div class="name">Your Name</div>
+      <div class="slide-num">05/05</div>
+    </div>
+  </div>
+
+</body>
+</html>

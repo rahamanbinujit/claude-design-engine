@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Brand config (contains user's personal brand — generated per user)
+brand.config.json
+
+# OS files
+.DS_Store
+._*
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Design output (generated files)
+*.png
+*.jpg
+*.jpeg
+*.pdf
+!examples/**/*.png
+!examples/**/*.jpg
+
+# API keys — NEVER commit
+.env
+*.key
+api-key*

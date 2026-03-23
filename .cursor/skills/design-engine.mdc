@@ -1,0 +1,18 @@
+---
+description: End-to-end AI design system with 190+ styles, AI photo generation, and pixel-perfect export. Use when designing posters, carousels, thumbnails, PDFs, websites, or any visual content.
+globs:
+alwaysApply: false
+---
+
+# Design Engine by Rahaman Bin Ujit
+
+For full design system instructions, read `SKILL.md` in the project root.
+
+This skill activates when you need to design visual content — social media posts, carousels, YouTube thumbnails, PDFs, websites, or landing pages.
+
+## Quick Reference
+- Brand config: `brand.config.json`
+- Styles: `styles/INDEX.md` (190+ options)
+- Workflows: `workflows/`
+- Export: `scripts/export-png.js`, `scripts/export-pdf.js`
+- Skills: `skills/`

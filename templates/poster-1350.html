@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <!--
+    Claude Design Engine — Portrait Poster Template (1080x1350)
+    Created by Rahaman Bin Ujit
+
+    4:5 portrait format — takes maximum screen real estate on mobile.
+    Best for LinkedIn and Instagram.
+
+    Export: node scripts/export-png.js templates/poster-1350.html output.png 1080 1350
+  -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      width: 1080px;
+      height: 1350px;
+      overflow: hidden;
+      background: #0A0A0A;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 48px;
+    }
+
+    .top-zone {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .tag {
+      font-family: 'Space Mono', monospace;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: rgba(255,255,255,0.4);
+    }
+
+    .middle-zone {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 32px;
+    }
+
+    .headline {
+      font-family: 'Inter', sans-serif;
+      font-size: 72px;
+      font-weight: 700;
+      letter-spacing: -3px;
+      line-height: 1.05;
+      color: #FFFFFF;
+    }
+
+    .headline .accent {
+      color: #C83C32;
+    }
+
+    .headline .light {
+      font-weight: 300;
+      color: rgba(255,255,255,0.7);
+    }
+
+    .body-text {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1.6;
+      color: rgba(255,255,255,0.6);
+      max-width: 75%;
+    }
+
+    .bottom-zone {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .identity {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .identity-text .name {
+      font-size: 14px;
+      font-weight: 600;
+      color: #FFFFFF;
+    }
+
+    .identity-text .designation {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      color: rgba(255,255,255,0.4);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="top-zone">
+      <div class="tag">Your Category</div>
+    </div>
+
+    <div class="middle-zone">
+      <h1 class="headline">
+        <span class="light">The future of</span><br>
+        design is<br>
+        <span class="accent">code.</span>
+      </h1>
+      <p class="body-text">
+        The extra vertical space in 4:5 format gives more breathing room for the content to land.
+      </p>
+    </div>
+
+    <div class="bottom-zone">
+      <div class="identity">
+        <div class="identity-text">
+          <div class="name">Your Name</div>
+          <div class="designation">Your Title</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

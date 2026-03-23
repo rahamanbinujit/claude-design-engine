@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <!--
+    Claude Design Engine — Square Poster Template (1080x1080)
+    Created by Rahaman Bin Ujit
+
+    Instructions:
+    1. Replace font URL with your brand fonts
+    2. Replace color values with your brand.config.json colors
+    3. Fill in your content
+    4. Export: node scripts/export-png.js templates/poster-1080.html output.png 1080 1080
+  -->
+
+  <!-- REPLACE with your Google Fonts URL from brand.config.json -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      width: 1080px;
+      height: 1080px;
+      overflow: hidden;
+      /* REPLACE with your brand background color */
+      background: #0A0A0A;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      /* REPLACE with your brand base_padding */
+      padding: 48px;
+    }
+
+    /* === TOP ZONE — Fixed === */
+    .top-zone {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .tag {
+      font-family: 'Space Mono', monospace;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      /* REPLACE with your text_muted color */
+      color: rgba(255,255,255,0.4);
+    }
+
+    /* === MIDDLE ZONE — Flexible === */
+    .middle-zone {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 24px;
+    }
+
+    .headline {
+      /* REPLACE with your display_font */
+      font-family: 'Inter', sans-serif;
+      font-size: 64px;
+      font-weight: 700;
+      letter-spacing: -2px;
+      line-height: 1.05;
+      /* REPLACE with your text_primary */
+      color: #FFFFFF;
+    }
+
+    .headline .accent {
+      /* REPLACE with your accent color */
+      color: #C83C32;
+    }
+
+    .body-text {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.6;
+      /* REPLACE with your text_secondary */
+      color: rgba(255,255,255,0.6);
+      max-width: 80%;
+    }
+
+    /* === BOTTOM ZONE — Fixed === */
+    .bottom-zone {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .identity {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .identity img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+
+    .identity-text .name {
+      font-size: 14px;
+      font-weight: 600;
+      /* REPLACE with your text_primary */
+      color: #FFFFFF;
+    }
+
+    .identity-text .designation {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      font-weight: 400;
+      /* REPLACE with your text_muted */
+      color: rgba(255,255,255,0.4);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- TOP ZONE -->
+    <div class="top-zone">
+      <div class="tag">Your Category</div>
+      <div class="tag">2026</div>
+    </div>
+
+    <!-- MIDDLE ZONE -->
+    <div class="middle-zone">
+      <h1 class="headline">
+        Your bold headline<br>
+        with <span class="accent">one accent</span> word.
+      </h1>
+      <p class="body-text">
+        Supporting text goes here. Keep it short. The headline does the heavy lifting.
+      </p>
+    </div>
+
+    <!-- BOTTOM ZONE -->
+    <div class="bottom-zone">
+      <div class="identity">
+        <!-- Optional: <img src="your-logo.png" alt="logo"> -->
+        <div class="identity-text">
+          <div class="name">Your Name</div>
+          <div class="designation">Your Title</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

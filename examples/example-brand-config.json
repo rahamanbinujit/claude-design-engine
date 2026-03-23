@@ -1,0 +1,47 @@
+{
+  "_comment": "This is an example brand.config.json. Generated automatically by the onboarding process.",
+  "_author": "Claude Design Engine by Rahaman Bin Ujit",
+
+  "identity": {
+    "name": "Alex Chen",
+    "designation": "AI Product Designer",
+    "logo_path": null,
+    "logo_position": "bottom-left",
+    "logo_size": "small"
+  },
+
+  "platform": {
+    "primary": "linkedin",
+    "default_width": 1080,
+    "default_height": 1080
+  },
+
+  "typography": {
+    "display_font": "Space Grotesk",
+    "display_weights": [700],
+    "body_font": "Inter",
+    "body_weights": [300, 400, 500, 600],
+    "mono_font": "Space Mono",
+    "mono_weights": [400, 700],
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Inter:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap"
+  },
+
+  "colors": {
+    "background": "#0A0A0A",
+    "text_primary": "#FFFFFF",
+    "text_secondary": "rgba(255,255,255,0.6)",
+    "text_muted": "rgba(255,255,255,0.35)",
+    "accent": "#C83C32",
+    "accent_glow": "rgba(200,60,50,0.5)",
+    "card_bg": "rgba(255,255,255,0.05)",
+    "card_border": "rgba(255,255,255,0.08)"
+  },
+
+  "style": {
+    "vibe": "bold-editorial",
+    "content_type": "thought-leadership",
+    "border_radius": "12px",
+    "base_padding": "40px",
+    "grid_unit": 8
+  }
+}
