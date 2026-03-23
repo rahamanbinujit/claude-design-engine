@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1080px; height: 1350px; overflow: hidden; background: #0A0A0A; font-family: 'Inter', sans-serif; position: relative; }
+.bg-number { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-55%); font-family: 'Bebas Neue', sans-serif; font-size: 600px; color: rgba(34,197,94,0.04); line-height: 1; pointer-events: none; letter-spacing: -20px; }
+.container { width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: space-between; padding: 52px; position: relative; z-index: 2; }
+.top { display: flex; justify-content: space-between; align-items: center; }
+.tag { font-family: 'Space Mono', monospace; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.18em; color: #22C55E; }
+.tag-muted { color: rgba(255,255,255,0.25); }
+.middle { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 16px; }
+.giant { font-family: 'Bebas Neue', sans-serif; font-size: 220px; color: #22C55E; line-height: 0.9; letter-spacing: -6px; text-shadow: 0 0 80px rgba(34,197,94,0.4), 0 0 160px rgba(34,197,94,0.15); }
+.giant .unit { font-size: 120px; color: rgba(255,255,255,0.6); text-shadow: none; }
+.line { width: 48px; height: 3px; background: #22C55E; border-radius: 2px; }
+.headline { font-size: 32px; font-weight: 600; color: #FFFFFF; line-height: 1.3; letter-spacing: -0.5px; }
+.body { font-size: 16px; color: rgba(255,255,255,0.45); line-height: 1.7; max-width: 70%; }
+.stats { display: flex; gap: 40px; margin-top: 24px; }
+.stat .val { font-family: 'Bebas Neue', sans-serif; font-size: 48px; color: #FFFFFF; }
+.stat .label { font-family: 'Space Mono', monospace; font-size: 9px; color: rgba(255,255,255,0.3); text-transform: uppercase; letter-spacing: 0.12em; }
+.bottom { display: flex; justify-content: space-between; align-items: flex-end; }
+.brand-name { font-size: 16px; font-weight: 600; color: #FFFFFF; }
+.brand-role { font-family: 'Space Mono', monospace; font-size: 10px; color: rgba(255,255,255,0.3); text-transform: uppercase; letter-spacing: 0.1em; }
+.green-dot { width: 28px; height: 28px; border-radius: 50%; background: radial-gradient(circle at 40% 40%, #4ADE80, #22C55E); box-shadow: 0 0 18px rgba(34,197,94,0.6), 0 0 40px rgba(34,197,94,0.3); }
+</style>
+</head>
+<body>
+<div class="bg-number">75</div>
+<div class="container">
+  <div class="top">
+    <div class="tag">// Transformation</div>
+    <div class="tag tag-muted">12 weeks</div>
+  </div>
+  <div class="middle">
+    <div class="giant">75<span class="unit">%</span></div>
+    <div class="line"></div>
+    <div class="headline">of my clients hit their goal<br>in the first 90 days.</div>
+    <p class="body">Not motivation. Not willpower. Systems. A repeatable process that works whether you feel like it or not.</p>
+    <div class="stats">
+      <div class="stat"><div class="val">340+</div><div class="label">Clients coached</div></div>
+      <div class="stat"><div class="val">12</div><div class="label">Week program</div></div>
+      <div class="stat"><div class="val">4.9</div><div class="label">Avg rating</div></div>
+    </div>
+  </div>
+  <div class="bottom">
+    <div>
+      <div class="brand-name">Mike Torres</div>
+      <div class="brand-role">Performance Coach</div>
+    </div>
+    <div class="green-dot"></div>
+  </div>
+</div>
+</body>
+</html>

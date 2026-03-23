@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400&family=Space+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1080px; height: 1080px; overflow: hidden; background: #0A0A0A; font-family: 'Inter', sans-serif; position: relative; }
+.gold-line-top { position: absolute; top: 36px; left: 52px; right: 52px; height: 1px; background: linear-gradient(90deg, transparent, rgba(212,168,83,0.3), transparent); }
+.gold-line-bot { position: absolute; bottom: 36px; left: 52px; right: 52px; height: 1px; background: linear-gradient(90deg, transparent, rgba(212,168,83,0.3), transparent); }
+.container { width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: space-between; padding: 60px 56px; position: relative; z-index: 2; }
+.top { display: flex; justify-content: space-between; align-items: center; }
+.tag { font-family: 'Space Mono', monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.2em; color: rgba(212,168,83,0.5); }
+.middle { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 28px; }
+.headline { font-family: 'Playfair Display', serif; font-size: 64px; font-weight: 400; letter-spacing: -1px; line-height: 1.1; color: #F5F0E6; }
+.headline em { font-style: italic; color: #D4A853; }
+.gold-line { width: 64px; height: 1px; background: #D4A853; }
+.body { font-size: 15px; font-weight: 300; color: rgba(245,240,230,0.4); line-height: 1.8; max-width: 65%; letter-spacing: 0.3px; }
+.quote { font-family: 'Playfair Display', serif; font-style: italic; font-size: 20px; color: rgba(212,168,83,0.6); margin-top: 8px; }
+.bottom { display: flex; justify-content: space-between; align-items: flex-end; }
+.brand { }
+.brand-name { font-family: 'Playfair Display', serif; font-size: 16px; color: #F5F0E6; letter-spacing: 0.5px; }
+.brand-role { font-family: 'Space Mono', monospace; font-size: 9px; color: rgba(212,168,83,0.4); text-transform: uppercase; letter-spacing: 0.15em; margin-top: 4px; }
+.diamond { width: 8px; height: 8px; background: #D4A853; transform: rotate(45deg); opacity: 0.6; }
+</style>
+</head>
+<body>
+<div class="gold-line-top"></div>
+<div class="gold-line-bot"></div>
+<div class="container">
+  <div class="top">
+    <div class="tag">The Art of Less</div>
+    <div class="diamond"></div>
+  </div>
+  <div class="middle">
+    <h1 class="headline">Luxury isn't about<br>having more.<br>It's about needing<br><em>nothing else.</em></h1>
+    <div class="gold-line"></div>
+    <p class="body">We design spaces that speak in silence. Where every material, every shadow, every absence is deliberate. Restraint as the ultimate expression of taste.</p>
+    <div class="quote">"Less, but better." — Dieter Rams</div>
+  </div>
+  <div class="bottom">
+    <div class="brand">
+      <div class="brand-name">Aurelian Studio</div>
+      <div class="brand-role">Interior Architecture</div>
+    </div>
+    <div class="tag">Est. 2019</div>
+  </div>
+</div>
+</body>
+</html>
